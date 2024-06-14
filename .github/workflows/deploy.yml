@@ -23,7 +23,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./docker/Dockerfile.user
+          file: ./docker/DockerFile.user # double check names!!
           push: true
           tags: vanshajsharma/learning-ci-cd:latest # Replace with your Docker Hub username and repository
 
